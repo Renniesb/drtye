@@ -1,0 +1,306 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+
+/* Styles go here */
+
+.card {
+    background:#FFF;
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding:0px;
+    margin-top:1px;
+    overflow:hidden;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-body{
+ margin:1em;
+}
+
+.projects h2:first-child{
+  margin-top: 60px;
+}
+
+.projects h2:nth-child(2) {
+  margin-top: 100px;
+}
+
+.card-header-grey{
+    background-color:#424242;
+    color:#FFFFFF;
+    border-bottom:3px solid #BBB;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    padding:0px;
+    margin-top:0px;
+    overflow:hidden;
+    -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-heading {
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    margin-left:1em;
+    border-bottom: 1px #2196F3;
+    color:#fff;
+
+}
+.card-footer{
+ border-top:1px solid #000;
+
+
+}
+
+.rounded {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+
+
+.panel { margin-top: 50px; }
+.panel-heading {
+
+}
+
+.btn-click
+{
+margin-top: -27px;
+font-size: 26px;
+cursor: pointer;
+}
+
+.btn-click > .fa.fa-chevron-circle-up
+{
+color: rgba(249, 249, 249, .5);
+}
+
+
+.btn-white
+{
+color: #5e5e5e;
+background-color: #fff;
+border: 1px solid #e5e9ec;
+}
+
+
+/* Styles go here */
+.backdrop{
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.cv-img, .projects-img {
+  display: table;
+  width: 100%;
+  padding: 110px;
+  border-bottom: black;
+
+}
+
+.cv-img-default {
+  background-image: url('../img/office-desk-banner.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 35px;
+
+
+}
+.cv-img h1, .projects-img h1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Source Sans Pro",sans-serif;
+  color: #312420;
+}
+
+
+
+.feature-image {
+  display: table;
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 5px;
+  padding-left: 90px;
+  padding-right: 90px;
+
+}
+
+.feature-image-default {
+  background: url('../img/book-1867171_960_720.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 50px;
+
+}
+
+
+
+.projects-img-default {
+    background: url('../img/resources-for-teachers.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 35px;
+}
+
+
+
+.feature-image-2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background: url('../img/books-bench.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 150px;
+
+}
+
+h2{
+    font-weight: 400;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.title h1 {
+  display: inline-block;
+  background: white;
+  padding: 3px 8px;
+  font-weight: 400;
+  font-family: "Source Sans Pro",sans-serif;
+
+}
+
+
+aside p {
+  display: inline-block;
+  background: white;
+  padding: 5px 8px;
+  font-weight: 400;
+  font-family: "Source Sans Pro",sans-serif;
+
+
+}
+
+article {
+  padding-bottom: 50px;
+}
+
+article img{
+  padding-right: 15px;
+}
+
+article p {
+  font-family: "proxima-nova";
+  font-size: 1.2em;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.heading h1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Source Sans Pro",sans-serif;
+  color: black;
+
+}
+.header {
+  margin-top: 50px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
+
+.navbar-nav h4:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+  width: 1px;
+  background: #999
+}
+
+.navbar-nav li a h4:last-child::after {
+  display: none
+}
+
+.projects h1, .projects h2, .projects h3, .contact h1 {
+  font-family: "Source Sans Pro",sans-serif;
+}
+
+/*Footer Section */
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+@media screen and (max-width: 500px) {
+/*  .cv img  {
+    padding: 5px;
+  }*/
+  .panel {
+    margin-top: 20px;
+  }
+
+  .panel-heading h3{
+   font-size: 10px;
+ }
+ .panel-heading i {
+  font-size: 20px
+}
+
+}
